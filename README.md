@@ -1,31 +1,31 @@
-# npm-package-typescript-template
+# websfx
 
-[![NPM](https://nodei.co/npm/npm-package-typescript-template.svg)](https://www.npmjs.com/package/npm-package-typescript-template)
+[![NPM](https://nodei.co/npm/websfx.svg)](https://www.npmjs.com/package/websfx)
 
-[![NPM version](https://img.shields.io/npm/v/npm-package-typescript-template.svg)](https://www.npmjs.com/package/npm-package-typescript-template)
-[![build](https://github.com/remarkablemark/npm-package-typescript-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/npm-package-typescript-template/actions/workflows/build.yml)
-[![codecov](https://codecov.io/gh/remarkablemark/npm-package-typescript-template/graph/badge.svg?token=B0W2IQZ66A)](https://codecov.io/gh/remarkablemark/npm-package-typescript-template)
+[![NPM version](https://img.shields.io/npm/v/websfx.svg)](https://www.npmjs.com/package/websfx)
+[![build](https://github.com/remarkablemark/websfx/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/websfx/actions/workflows/build.yml)
+[![codecov](https://codecov.io/gh/remarkablemark/websfx/graph/badge.svg?token=B0W2IQZ66A)](https://codecov.io/gh/remarkablemark/websfx)
 
-npm-package-typescript-template
+websfx
 
 ## Quick Start
 
 ```ts
-import { name } from 'npm-package-typescript-template';
+import { name } from 'websfx';
 ```
 
 ## Install
 
-[NPM](https://www.npmjs.com/package/npm-package-typescript-template):
+[NPM](https://www.npmjs.com/package/websfx):
 
 ```sh
-npm install npm-package-typescript-template
+npm install websfx
 ```
 
-[CDN](https://unpkg.com/browse/npm-package-typescript-template/):
+[CDN](https://unpkg.com/browse/websfx/):
 
 ```html
-<script src="https://unpkg.com/npm-package-typescript-template@latest/dist/index.umd.js"></script>
+<script src="https://unpkg.com/websfx@latest/dist/index.umd.js"></script>
 ```
 
 ## Usage
@@ -33,21 +33,21 @@ npm install npm-package-typescript-template
 ES Modules:
 
 ```ts
-import { name } from 'npm-package-typescript-template';
+import { name } from 'websfx';
 ```
 
 CommonJS:
 
 ```ts
-const { name } = require('npm-package-typescript-template');
+const { name } = require('websfx');
 ```
 
 UMD:
 
 ```html
-<script src="https://unpkg.com/npm-package-typescript-template@latest/dist/index.umd.js"></script>
+<script src="https://unpkg.com/websfx@latest/dist/index.umd.js"></script>
 <script>
-  const { name } = window['npm-package-typescript-template'];
+  const { name } = window['websfx'];
 </script>
 ```
 
@@ -57,4 +57,4 @@ Release is automated with [Release Please](https://github.com/googleapis/release
 
 ## License
 
-[MIT](https://github.com/remarkablemark/npm-package-typescript-template/blob/master/LICENSE)
+[MIT](https://github.com/remarkablemark/websfx/blob/master/LICENSE)

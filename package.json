@@ -1,7 +1,7 @@
 {
-  "name": "npm-package-typescript-template",
+  "name": "websfx",
   "version": "1.0.0-alpha",
-  "description": "npm-package-typescript-template",
+  "description": "websfx",
   "author": "Mark <mark@remarkablemark.org> (https://remarkablemark.org)",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -36,13 +36,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/remarkablemark/npm-package-typescript-template.git"
+    "url": "git+https://github.com/remarkablemark/websfx.git"
   },
   "bugs": {
-    "url": "https://github.com/remarkablemark/npm-package-typescript-template/issues"
+    "url": "https://github.com/remarkablemark/websfx/issues"
   },
   "keywords": [
-    "npm-package-typescript-template"
+    "websfx"
   ],
   "devDependencies": {
     "@commitlint/cli": "21.2.3",
