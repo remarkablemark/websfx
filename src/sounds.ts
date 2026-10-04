@@ -6,7 +6,7 @@ const clickTone: ToneOptions = {
   endFrequency: 700,
   duration: 0.05,
   type: 'triangle',
-  volume: 0.6,
+  volume: 0.8,
 };
 
 function playClick(options: SoundOptions, delay = 0): void {
@@ -32,7 +32,7 @@ export function hover(options: SoundOptions = {}): void {
     frequency: 900,
     duration: 0.04,
     type: 'sine',
-    volume: 0.25,
+    volume: 0.4,
     ...options,
   });
 }
@@ -47,7 +47,7 @@ export function focus(options: SoundOptions = {}): void {
     frequency: 1200,
     duration: 0.05,
     type: 'sine',
-    volume: 0.35,
+    volume: 0.5,
     ...options,
   });
 }
@@ -63,7 +63,7 @@ export function press(options: SoundOptions = {}): void {
     endFrequency: 500,
     duration: 0.06,
     type: 'triangle',
-    volume: 0.5,
+    volume: 0.7,
     ...options,
   });
 }
@@ -79,7 +79,7 @@ export function release(options: SoundOptions = {}): void {
     endFrequency: 750,
     duration: 0.06,
     type: 'triangle',
-    volume: 0.5,
+    volume: 0.7,
     ...options,
   });
 }
@@ -96,7 +96,7 @@ export function longPress(options: SoundOptions = {}): void {
     duration: 0.3,
     attack: 0.05,
     type: 'sine',
-    volume: 0.5,
+    volume: 0.7,
     ...options,
   });
 }
@@ -122,7 +122,7 @@ export function drag(options: SoundOptions = {}): void {
     type: 'bandpass',
     frequency: 1200,
     q: 2,
-    volume: 0.25,
+    volume: 0.4,
     ...options,
   });
 }
@@ -161,7 +161,7 @@ export function type(options: SoundOptions = {}): void {
     type: 'bandpass',
     frequency: 2500,
     q: 1,
-    volume: 0.35,
+    volume: 0.5,
     ...options,
   });
 }
@@ -177,7 +177,7 @@ export function select(options: SoundOptions = {}): void {
       { frequency: 660, duration: 0.06 },
       { frequency: 990, duration: 0.09 },
     ],
-    { type: 'sine', gap: 0, volume: 0.5, ...options },
+    { type: 'sine', gap: 0, volume: 0.65, ...options },
   );
 }
 
@@ -192,7 +192,7 @@ export function deselect(options: SoundOptions = {}): void {
       { frequency: 990, duration: 0.06 },
       { frequency: 660, duration: 0.09 },
     ],
-    { type: 'sine', gap: 0, volume: 0.5, ...options },
+    { type: 'sine', gap: 0, volume: 0.65, ...options },
   );
 }
 
@@ -207,7 +207,7 @@ export function open(options: SoundOptions = {}): void {
     endFrequency: 900,
     duration: 0.18,
     type: 'triangle',
-    volume: 0.45,
+    volume: 0.65,
     ...options,
   });
 }
@@ -223,7 +223,7 @@ export function close(options: SoundOptions = {}): void {
     endFrequency: 300,
     duration: 0.18,
     type: 'triangle',
-    volume: 0.45,
+    volume: 0.65,
     ...options,
   });
 }
@@ -239,7 +239,7 @@ export function back(options: SoundOptions = {}): void {
     endFrequency: 350,
     duration: 0.15,
     type: 'sine',
-    volume: 0.45,
+    volume: 0.65,
     ...options,
   });
 }
@@ -255,7 +255,7 @@ export function forward(options: SoundOptions = {}): void {
     endFrequency: 700,
     duration: 0.15,
     type: 'sine',
-    volume: 0.45,
+    volume: 0.65,
     ...options,
   });
 }
@@ -273,7 +273,7 @@ export function forward(options: SoundOptions = {}): void {
  */
 export function beep(options: BeepOptions = {}): void {
   const { frequency = 880, ...rest } = options;
-  tone({ frequency, duration: 0.15, type: 'sine', volume: 0.5, ...rest });
+  tone({ frequency, duration: 0.15, type: 'sine', volume: 0.7, ...rest });
 }
 
 /**
@@ -289,7 +289,7 @@ export function success(options: SoundOptions = {}): void {
       { frequency: 783.99, duration: 0.08 },
       { frequency: 1046.5, duration: 0.16 },
     ],
-    { type: 'sine', gap: 0.02, volume: 0.5, ...options },
+    { type: 'sine', gap: 0.02, volume: 0.65, ...options },
   );
 }
 
@@ -304,7 +304,7 @@ export function error(options: SoundOptions = {}): void {
       { frequency: 220, duration: 0.12 },
       { frequency: 165, duration: 0.18 },
     ],
-    { type: 'square', gap: 0, volume: 0.4, ...options },
+    { type: 'square', gap: 0, volume: 0.45, ...options },
   );
 }
 
@@ -321,7 +321,7 @@ export function warning(options: SoundOptions = {}): void {
       { frequency: 880, duration: 0.08 },
       { frequency: 660, duration: 0.08 },
     ],
-    { type: 'square', gap: 0.04, volume: 0.35, ...options },
+    { type: 'square', gap: 0.04, volume: 0.4, ...options },
   );
 }
 
@@ -336,7 +336,7 @@ export function cancel(options: SoundOptions = {}): void {
       { frequency: 600, duration: 0.09 },
       { frequency: 450, duration: 0.14 },
     ],
-    { type: 'triangle', gap: 0.01, volume: 0.5, ...options },
+    { type: 'triangle', gap: 0.01, volume: 0.65, ...options },
   );
 }
 
@@ -351,7 +351,7 @@ export function notification(options: SoundOptions = {}): void {
       { frequency: 880, duration: 0.1 },
       { frequency: 1320, duration: 0.18 },
     ],
-    { type: 'sine', gap: 0.08, volume: 0.5, ...options },
+    { type: 'sine', gap: 0.08, volume: 0.65, ...options },
   );
 }
 
@@ -366,7 +366,7 @@ export function copy(options: SoundOptions = {}): void {
       { frequency: 900, duration: 0.05 },
       { frequency: 1350, duration: 0.07 },
     ],
-    { type: 'sine', gap: 0.03, volume: 0.45, ...options },
+    { type: 'sine', gap: 0.03, volume: 0.6, ...options },
   );
 }
 
@@ -381,7 +381,7 @@ export function paste(options: SoundOptions = {}): void {
     endFrequency: 800,
     duration: 0.09,
     type: 'sine',
-    volume: 0.45,
+    volume: 0.65,
     ...options,
   });
 }
@@ -397,7 +397,7 @@ export function remove(options: SoundOptions = {}): void {
     endFrequency: 250,
     duration: 0.12,
     type: 'triangle',
-    volume: 0.5,
+    volume: 0.7,
     ...options,
   });
 }
@@ -413,7 +413,7 @@ export function reaction(options: SoundOptions = {}): void {
     endFrequency: 1400,
     duration: 0.12,
     type: 'sine',
-    volume: 0.5,
+    volume: 0.65,
     ...options,
   });
 }
