@@ -6,7 +6,7 @@
 [![build](https://github.com/remarkablemark/websfx/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/websfx/actions/workflows/build.yml)
 [![codecov](https://codecov.io/gh/remarkablemark/websfx/graph/badge.svg?token=B0W2IQZ66A)](https://codecov.io/gh/remarkablemark/websfx)
 
-websfx
+🔊 Web sound effects
 
 ## Quick Start
 
@@ -47,7 +47,7 @@ UMD:
 ```html
 <script src="https://unpkg.com/websfx@latest/dist/index.umd.js"></script>
 <script>
-  const { name } = window['websfx'];
+  const { name } = window.websfx;
 </script>
 ```
 
