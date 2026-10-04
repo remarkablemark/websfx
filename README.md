@@ -6,9 +6,13 @@
 [![build](https://github.com/remarkablemark/websfx/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/websfx/actions/workflows/build.yml)
 [![codecov](https://codecov.io/gh/remarkablemark/websfx/graph/badge.svg?token=B0W2IQZ66A)](https://codecov.io/gh/remarkablemark/websfx)
 
-🔊 Synthesized UI sound effects for the browser using the Web Audio API.
+🔊 Play synthesized UI sound effects in the browser.
 
-No dependencies. No audio assets. Every sound is generated at runtime with oscillators and noise. Tree-shakeable ESM means you import only the sounds you use.
+No dependencies. No audio assets. Every sound is generated at runtime with the Web Audio API. Import only the sounds you need with tree-shakeable ESM.
+
+## Demo
+
+Play the sound effects in the [playground](https://remarkablemark.org/websfx/).
 
 ## Quick Start
 
