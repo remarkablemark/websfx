@@ -1,6 +1,6 @@
 {
   "name": "websfx",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Play synthesized UI sound effects using the Web Audio API",
   "author": "Mark <mark@remarkablemark.org> (https://remarkablemark.org)",
   "sideEffects": false,
