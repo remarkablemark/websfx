@@ -140,8 +140,8 @@ export interface SequenceOptions extends SoundOptions {
  * @param options - Tone options.
  */
 export function tone(options: ToneOptions): void {
-  const io = getAudio();
-  if (!io) return;
+  const audio = getAudio();
+  if (!audio) return;
   const {
     frequency,
     endFrequency,
@@ -155,7 +155,7 @@ export function tone(options: ToneOptions): void {
   const peak = clamp(volume);
   const startFrequency = frequency * pitch;
   if (duration <= 0 || peak <= 0 || startFrequency <= 0) return;
-  const { context, master } = io;
+  const { context, master } = audio;
   const start = context.currentTime + delay;
   const end = start + duration;
   const oscillator = context.createOscillator();
