@@ -1,8 +1,9 @@
 {
   "name": "websfx",
   "version": "1.0.0-alpha",
-  "description": "websfx",
+  "description": "Synthesized UI sound effects for the browser using the Web Audio API",
   "author": "Mark <mark@remarkablemark.org> (https://remarkablemark.org)",
+  "sideEffects": false,
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
