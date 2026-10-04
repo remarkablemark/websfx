@@ -36,7 +36,7 @@ npm install websfx
 [CDN](https://unpkg.com/browse/websfx/):
 
 ```html
-<script src="https://unpkg.com/websfx@latest/dist/index.umd.js"></script>
+<script src="https://unpkg.com/websfx@latest/dist/index.umd.min.js"></script>
 ```
 
 ## Usage
