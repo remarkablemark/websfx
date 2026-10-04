@@ -25,7 +25,8 @@ description: Expert TypeScript engineer for this npm package
 
 - `npm run build` - build the package
 - `npm run clean` - remove generated artifacts
-- `npm run docs` - generate TypeDoc docs
+- `npm run docs` - build the Vite playground site to `docs/`
+- `npm run docs:watch` - serve the Vite playground with live reload
 - `npm run lint:fix` - auto-fix lint issues
 - `npm run lint:package` - validate the published package
 - `npm run lint:tsc` - run TypeScript checks
