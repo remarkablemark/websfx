@@ -8,11 +8,11 @@
 
 🔊 Play synthesized UI sound effects in the browser.
 
-No dependencies. No audio assets. Sounds are generated at runtime with the Web Audio API. Import what you need with tree-shakable ESM.
+No dependencies. No audio assets. Sounds are generated at runtime with the [Web Audio API](https://developer.mozilla.org/docs/Web/API/Web_Audio_API). Import what you need with tree-shakable ESM.
 
 ## Demo
 
-Play the sound effects in the [playground](https://remarkablemark.org/websfx/).
+Try out the sound effects in the [playground](https://remarkablemark.org/websfx/).
 
 ## Quick Start
 
