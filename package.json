@@ -42,7 +42,11 @@
     "url": "https://github.com/remarkablemark/websfx/issues"
   },
   "keywords": [
-    "websfx"
+    "audio",
+    "browser",
+    "sfx",
+    "sound-effects",
+    "web-audio-api"
   ],
   "devDependencies": {
     "@commitlint/cli": "21.2.3",
