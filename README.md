@@ -4,7 +4,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/websfx.svg)](https://www.npmjs.com/package/websfx)
 [![build](https://github.com/remarkablemark/websfx/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/websfx/actions/workflows/build.yml)
-[![codecov](https://codecov.io/gh/remarkablemark/websfx/graph/badge.svg?token=B0W2IQZ66A)](https://codecov.io/gh/remarkablemark/websfx)
+[![codecov](https://codecov.io/gh/remarkablemark/websfx/graph/badge.svg?token=MOIv2v4Pd4)](https://codecov.io/gh/remarkablemark/websfx)
 
 🔊 Web sound effects
 
